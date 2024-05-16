@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="118.172956%" y1="63.0094754%" x2="85.5478041%" y2="46.8277128%" id="linearGradient-1">
+            <stop stop-color="#BECAFB" offset="0%"></stop>
+            <stop stop-color="#5478EE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="18.3575153%" y1="23.58476%" x2="56.0953559%" y2="55.8568962%" id="linearGradient-2">
+            <stop stop-color="#BECAFB" offset="0%"></stop>
+            <stop stop-color="#5478EE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="67.4064337%" y1="3.3834%" x2="30.6700501%" y2="95.9599574%" id="linearGradient-3">
+            <stop stop-color="#8FC8FA" offset="0%"></stop>
+            <stop stop-color="#8FC8FA" stop-opacity="0" offset="27.6840656%"></stop>
+            <stop stop-color="#8FC8FA" stop-opacity="0" offset="76.5779026%"></stop>
+            <stop stop-color="#8FC8FA" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M19.75,1 C18.9215729,1 18.5,1.67157288 18.5,2.5 L18.5005484,8.64306674 C17.5672708,8.15562084 16.5058228,7.88 15.38,7.88 C11.6520779,7.88 8.63,10.9020779 8.63,14.63 C8.63,17.5747545 10.5156896,20.0790826 13.1454287,21.0013442 L3,21 L3,3 C3,1.8954305 3.8954305,1 5,1 L19.75,1 Z" id="path-4"></path>
+        <linearGradient x1="-4.47312555%" y1="2.24746539e-13%" x2="42.4228983%" y2="41.7857975%" id="linearGradient-5">
+            <stop stop-color="#BECAFB" offset="0%"></stop>
+            <stop stop-color="#5478EE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="73.7700922%" y1="-49.637372%" x2="-2.67048122%" y2="97.3727377%" id="linearGradient-6">
+            <stop stop-color="#8FC8FA" offset="0%"></stop>
+            <stop stop-color="#8FC8FA" stop-opacity="0" offset="27.6840656%"></stop>
+            <stop stop-color="#8FC8FA" stop-opacity="0" offset="76.5779026%"></stop>
+            <stop stop-color="#8FC8FA" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M15.38,7.88 C16.5058228,7.88 17.5672708,8.15562084 18.5005484,8.64306674 L18.5,19 C18.5,20.1045695 17.6045695,21 16.5,21 L13.1454287,21.0013442 C10.5156896,20.0790826 8.63,17.5747545 8.63,14.63 C8.63,10.9020779 11.6520779,7.88 15.38,7.88 Z" id="path-7"></path>
+        <filter x="-30.4%" y="-22.9%" width="160.8%" height="145.7%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="3.57392129%" y1="19.2607155%" x2="31.2180767%" y2="123.292142%" id="linearGradient-9">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="8.32667268e-14%" y1="44.9393766%" x2="96.9027584%" y2="51.7958979%" id="linearGradient-10">
+            <stop stop-color="#BECAFB" offset="0%"></stop>
+            <stop stop-color="#5478EE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="129.736328%" y1="39.0375542%" x2="3.03923553e-13%" y2="54.0312196%" id="linearGradient-11">
+            <stop stop-color="#8FC8FA" offset="0%"></stop>
+            <stop stop-color="#8FC8FA" stop-opacity="0" offset="27.6840656%"></stop>
+            <stop stop-color="#8FC8FA" stop-opacity="0" offset="76.5779026%"></stop>
+            <stop stop-color="#8FC8FA" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M13.1454287,21.0013442 L3,21 C1.8954305,21 1,20.1045695 1,19 L1,18 L9.5303455,18.0003553 C10.3314353,19.3877462 11.6119244,20.4635372 13.1454287,21.0013442 Z" id="path-12"></path>
+        <linearGradient x1="-115.621459%" y1="32.8680348%" x2="45.0864143%" y2="54.440087%" id="linearGradient-13">
+            <stop stop-color="#BECAFB" offset="0%"></stop>
+            <stop stop-color="#5478EE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="129.736328%" y1="18.9749064%" x2="3.03923553e-13%" y2="61.4088559%" id="linearGradient-14">
+            <stop stop-color="#8FC8FA" offset="0%"></stop>
+            <stop stop-color="#8FC8FA" stop-opacity="0" offset="27.6840656%"></stop>
+            <stop stop-color="#8FC8FA" stop-opacity="0" offset="76.5779026%"></stop>
+            <stop stop-color="#8FC8FA" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M15.5,18 L15.5,19.5 C15.5,20.3284271 15.9215729,21 16.75,21 L13.1455545,21.0013884 C11.6119945,20.4635961 10.3314572,19.3877841 9.5303455,18.0003553 L15.5,18 Z" id="path-15"></path>
+        <filter x="-31.2%" y="-75.0%" width="162.3%" height="249.9%" filterUnits="objectBoundingBox" id="filter-16">
+            <feGaussianBlur stdDeviation="0.75" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="-24.2995957%" y1="-11.2125976%" x2="70.5830347%" y2="75.726886%" id="linearGradient-17">
+            <stop stop-color="#BECAFB" offset="0%"></stop>
+            <stop stop-color="#5478EE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="62.4742807%" y1="-14.2624322%" x2="50%" y2="100%" id="linearGradient-18">
+            <stop stop-color="#8FC8FA" offset="0%"></stop>
+            <stop stop-color="#8FC8FA" stop-opacity="0" offset="27.6840656%"></stop>
+            <stop stop-color="#8FC8FA" stop-opacity="0" offset="69.7487617%"></stop>
+            <stop stop-color="#8FC8FA" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M12.2954052,10.5995562 L14.0224295,12.6589519 C14.5549322,13.2935639 14.4721562,14.2396973 13.8375442,14.7722 C13.2029322,15.3047027 12.2567989,15.2219267 11.7242962,14.5873147 L10.076973,12.6244898 C10.9596197,12.1235328 11.7182591,11.4293929 12.2954052,10.5995562 Z" id="path-19"></path>
+        <linearGradient x1="8.81880296%" y1="9.30569435%" x2="93.0787331%" y2="93.1157159%" id="linearGradient-20">
+            <stop stop-color="#F5F7FC" offset="0%"></stop>
+            <stop stop-color="#F5F7FC" offset="100%"></stop>
+        </linearGradient>
+        <pattern id="pattern-21" width="100%" height="100%" patternUnits="objectBoundingBox">
+            <use xlink:href="#image-22"></use>
+        </pattern>
+        <image id="image-22" width="14" height="14" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAADqADAAQAAAABAAAADgAAAAC98Dn6AAAB5ElEQVQoFUVSwWrVUBSc9h4SCKQkvEBEVw8El4JbF35B6dqf8ZuE7ror6MqFIAgVhQdPnjSQmpDAlYR7oTM3ipCQ5NycOTNz5uztu9+XFwVQFoaqBJrSoamBtnF4UgG72pBnQD/yHgJmD4xzhK0LMAFwCMidwecRa3CIgUVsTZ4/z/5/08Tvc02JERj4MfHQE2hZtxpxkPOe//Cet0kTn7Mm1hfE5aFQehbzPEDUQ3RksNWHKaAbYqI7+ZjoWlMaCmoosoCBjade78C+jcgywwN1/ewi6xEDdUqjXwKsqR34REV6FafLgO+/AvbPHMTm45eIuyOn9QRm08r/FsqxdrfpCbQnsuBbx8kRN58W1NR//WGhi0CWUwapZ4mdGjnRsSCdehZ0Q4a9fB7w+pVhoXE99clZvctIXmxsaLmQiChT+gH4fBfw/nZNmq/e5Ph2CLin9pHG/AOwhkuW5eJ/OAHHLuDrIaKjER0N+XE0vNgbA7KBJnMIYNqZUjHOIU070kFZzzyknZ5oSs1UPW2l0ThAQXCwBwqfuCcZIJpaiZbsSF2atPh7Oq3V7BrWB0njOrRcHapBbo7Mn9Jj1C0jfFq4S8BKUsUcO76YmsR7/psIvzKrpC+HlVeW07koZjRDgCX3+wgc5SFUVT9JMwAAAABJRU5ErkJggg=="></image>
+        <path d="M6.75,0 C10.4779221,0 13.5,3.02207794 13.5,6.75 C13.5,10.4779221 10.4779221,13.5 6.75,13.5 C3.02207794,13.5 0,10.4779221 0,6.75 C0,3.02207794 3.02207794,0 6.75,0 Z M6.75,2.4375 C4.36827202,2.4375 2.4375,4.36827202 2.4375,6.75 C2.4375,9.13172798 4.36827202,11.0625 6.75,11.0625 C9.13172798,11.0625 11.0625,9.13172798 11.0625,6.75 C11.0625,4.36827202 9.13172798,2.4375 6.75,2.4375 Z" id="path-23"></path>
+    </defs>
+    <g id="新版风格2024" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="毛玻璃风格图标" transform="translate(-244.000000, -130.000000)">
+            <g id="icon/06毛玻璃/24*24/04AI智能阅卷" transform="translate(244.000000, 130.000000)">
+                <rect id="bg" fill="#000000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                <path d="M15,1 L19.5,1 C20.6045695,1 21.5,1.8954305 21.5,3 L21.5,4 L21.5,4 L13,4 L13,3 C13,1.8954305 13.8954305,1 15,1 Z" id="矩形" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <g id="形状结合" fill-rule="nonzero">
+                    <use fill="url(#linearGradient-2)" xlink:href="#path-4"></use>
+                    <use fill-opacity="0.6" fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                </g>
+                <g id="形状结合" fill-rule="nonzero" filter="url(#filter-8)">
+                    <use fill="url(#linearGradient-5)" xlink:href="#path-7"></use>
+                    <use fill-opacity="0.6" fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
+                </g>
+                <path d="M8.5,11.295029 C8.77614237,11.295029 9,11.5188866 9,11.795029 C9,12.0711714 8.77614237,12.295029 8.5,12.295029 L4.5,12.295029 C4.22385763,12.295029 4,12.0711714 4,11.795029 C4,11.5188866 4.22385763,11.295029 4.5,11.295029 L8.5,11.295029 Z M11.2443846,9.29488466 L4.5,9.295029 C4.22385763,9.295029 4,9.07117137 4,8.795029 C4,8.51888663 4.22385763,8.295029 4.5,8.295029 L13.0451159,8.29473481 C12.3913113,8.53577766 11.7850896,8.87513886 11.2443846,9.29488466 Z M8.88774417,2 C9.13627231,2 9.33774417,2.20147186 9.33774417,2.45 L9.33774417,6.14 C9.33774417,6.38852814 9.13627231,6.59 8.88774417,6.59 C8.63921603,6.59 8.43774417,6.38852814 8.43774417,6.14 L8.43774417,2.45 C8.43774417,2.20147186 8.63921603,2 8.88774417,2 Z M6.37350999,2.0425601 C6.61985912,2.12467648 6.81316943,2.3179868 6.89528581,2.56433592 L8.03952957,5.99706721 C8.11812107,6.2328417 7.99069907,6.48768569 7.75492458,6.56627719 C7.51915009,6.64486868 7.2643061,6.51744669 7.1857146,6.2816722 L6.9385,5.539 L5.2865,5.539 L5.03952957,6.2816722 C4.96879722,6.49386924 4.75530036,6.61830076 4.5414287,6.58377189 L4.47031959,6.56627719 C4.2345451,6.48768569 4.1071231,6.2328417 4.1857146,5.99706721 L5.32995837,2.56433592 C5.47404278,2.13208268 5.94125676,1.89847569 6.37350999,2.0425601 Z M16.93,3.39502943 C17.1509139,3.56071485 17.1956854,3.87411553 17.03,4.09502943 L15.53,6.09502943 C15.3474352,6.33844916 14.9916013,6.3637375 14.7764466,6.14858282 L13.7764466,5.14858282 C13.5811845,4.95332067 13.5811845,4.63673818 13.7764466,4.44147604 C13.9717088,4.24621389 14.2882912,4.24621389 14.4835534,4.44147604 L15.076,5.03402943 L16.23,3.49502943 C16.3956854,3.27411553 16.7090861,3.229344 16.93,3.39502943 Z M6.11187209,3.0613697 L5.5865,4.639 L6.6375,4.639 L6.11187209,3.0613697 Z" id="形状结合" fill="url(#linearGradient-9)" fill-rule="nonzero"></path>
+                <g id="形状结合" fill-rule="nonzero">
+                    <use fill="url(#linearGradient-10)" xlink:href="#path-12"></use>
+                    <use fill-opacity="0.6" fill="url(#linearGradient-11)" xlink:href="#path-12"></use>
+                </g>
+                <g id="形状结合" fill-rule="nonzero" filter="url(#filter-16)">
+                    <use fill="url(#linearGradient-13)" xlink:href="#path-15"></use>
+                    <use fill-opacity="0.6" fill="url(#linearGradient-14)" xlink:href="#path-15"></use>
+                </g>
+                <g id="搜索" transform="translate(8.630000, 7.880000)" fill-rule="nonzero">
+                    <g id="形状结合">
+                        <use fill="url(#linearGradient-17)" xlink:href="#path-19"></use>
+                        <use fill-opacity="0.6" fill="url(#linearGradient-18)" xlink:href="#path-19"></use>
+                    </g>
+                    <g id="形状结合" stroke-linejoin="square" stroke-width="0.666666665">
+                        <path stroke="url(#linearGradient-20)" d="M6.75,0.333333332 C8.52191357,0.333333332 10.1260802,1.05154321 11.2872685,2.21273149 C12.4484568,3.37391976 13.1666667,4.97808643 13.1666667,6.75 C13.1666667,8.52191357 12.4484568,10.1260802 11.2872685,11.2872685 C10.1260802,12.4484568 8.52191357,13.1666667 6.75,13.1666667 C4.97808643,13.1666667 3.37391976,12.4484568 2.21273149,11.2872685 C1.05154321,10.1260802 0.333333332,8.52191357 0.333333332,6.75 C0.333333332,4.97808643 1.05154321,3.37391976 2.21273149,2.21273149 C3.37391976,1.05154321 4.97808643,0.333333332 6.75,0.333333332 Z M6.75,2.10416667 C5.46708855,2.10416667 4.30563022,2.62416928 3.46489975,3.46489975 C2.62416928,4.30563022 2.10416667,5.46708855 2.10416667,6.75 C2.10416667,8.03291145 2.62416928,9.19436978 3.46489975,10.0351003 C4.30563022,10.8758307 5.46708855,11.3958333 6.75,11.3958333 C8.03291145,11.3958333 9.19436978,10.8758307 10.0351003,10.0351003 C10.8758307,9.19436978 11.3958333,8.03291145 11.3958333,6.75 C11.3958333,5.46708855 10.8758307,4.30563022 10.0351003,3.46489975 C9.19436978,2.62416928 8.03291145,2.10416667 6.75,2.10416667 Z" fill-opacity="0.4" fill="#8CA7FF" fill-rule="evenodd"></path>
+                        <path stroke="url(#pattern-21)" d="M6.75,0.333333332 C8.52191357,0.333333332 10.1260802,1.05154321 11.2872685,2.21273149 C12.4484568,3.37391976 13.1666667,4.97808643 13.1666667,6.75 C13.1666667,8.52191357 12.4484568,10.1260802 11.2872685,11.2872685 C10.1260802,12.4484568 8.52191357,13.1666667 6.75,13.1666667 C4.97808643,13.1666667 3.37391976,12.4484568 2.21273149,11.2872685 C1.05154321,10.1260802 0.333333332,8.52191357 0.333333332,6.75 C0.333333332,4.97808643 1.05154321,3.37391976 2.21273149,2.21273149 C3.37391976,1.05154321 4.97808643,0.333333332 6.75,0.333333332 Z M6.75,2.10416667 C5.46708855,2.10416667 4.30563022,2.62416928 3.46489975,3.46489975 C2.62416928,4.30563022 2.10416667,5.46708855 2.10416667,6.75 C2.10416667,8.03291145 2.62416928,9.19436978 3.46489975,10.0351003 C4.30563022,10.8758307 5.46708855,11.3958333 6.75,11.3958333 C8.03291145,11.3958333 9.19436978,10.8758307 10.0351003,10.0351003 C10.8758307,9.19436978 11.3958333,8.03291145 11.3958333,6.75 C11.3958333,5.46708855 10.8758307,4.30563022 10.0351003,3.46489975 C9.19436978,2.62416928 8.03291145,2.10416667 6.75,2.10416667 Z"></path>
+                    </g>
+                    <circle id="椭圆形" fill-opacity="0.3" fill="#D9E2FF" cx="6.75" cy="6.75" r="4.3125"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

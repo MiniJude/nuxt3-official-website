@@ -1,0 +1,23 @@
+<template>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+    <div>这是能力测评页</div>
+</template>
