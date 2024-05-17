@@ -55,8 +55,8 @@ export default defineNuxtConfig({
       // routes: ['/'],
     },
     devProxy: {
-      '/api': {
-        target: 'https://teacher-preview.exam.isrc.ac.cn/api',
+      '/api/v1/portal': {
+        target: 'https://teacher-preview.exam.isrc.ac.cn/api/v1/portal',
         changeOrigin: true,
       },
     }
