@@ -22,7 +22,7 @@
                         <img class="ml-[5px]" src="@/assets/svg/arrow.svg" alt="">
                     </div>
                     <div class="test-type-wrapper">
-                        <div class="test-type-item" v-for="item in list">{{ item.label }}</div>
+                        <div class="test-type-item" v-for="item in list" @click="imitationExam(item)">{{ item.label }}</div>
                     </div>
                 </div>
                 <img class="bg" src="@/assets/img/teacher-big.webp" alt="">
@@ -36,14 +36,71 @@
 const list = [
     {
         label: '整卷考试',
+        stupid: ''
     },
     {
         label: '逐题考试',
+        stupid: ''
     },
     {
         label: '单题限时',
+        stupid: ''
     },
 ]
+
+const token = ref('')
+const studentId = ref('')
+async function search() {
+    try {
+
+        const response = await $fetch('/api/v1/portal/studenttryout', {
+            method: 'POST'
+        }) as any
+
+        if (response.code === 1000) {
+            const { access_token, stupids, stuid } = response.data
+            token.value = access_token
+            studentId.value = stuid
+            list.forEach((item, index) => {
+                item.stupid = stupids[index]
+            })
+        } else {
+            message.error(response.msg);
+        }
+
+    } catch (error) {
+        message.error('网络异常')
+
+    } finally {
+    }
+}
+
+onMounted(() => {
+    search()
+})
+
+
+// 模拟考试
+async function imitationExam(item: any) {
+  let baseUrl: string
+  if (location.href.includes('localhost') || location.href.includes('192.168')) {
+    baseUrl = 'https://localhost:9001/'
+  } else if (location.href.includes('teacher-preview')) {
+    baseUrl = 'https://preview.exam.isrc.ac.cn/'
+  } else {
+    baseUrl = 'https://exam.isrc.ac.cn/'
+  }
+  try {
+    window.open(
+      `${baseUrl}#/pretest?id=${item.stupid}&stuid=${studentId.value}&token=${token.value}&stuname=游客同学`,
+      '_blank'
+    )
+  } catch (error) {
+    // do nothing
+  }
+}
+
+
 </script>
 
 <style lang="less" scoped>

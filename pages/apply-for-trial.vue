@@ -51,7 +51,7 @@
                 :padded="false" @click="state.code = ''" />
             </template>
           </UInput>
-          <ClientOnly >
+          <ClientOnly>
             <UButton size="xl" class="w-[112px] ml-[16px]" :ui="{ padding: { xl: 'px-[16px]' } }" :disabled="disabled">
               <span v-if="countdown <= 0" class="text-[16px]" @click="getCode">获取验证码</span>
               <span v-else class="text-[16px] w-full">{{ countdown }}s</span>
@@ -212,6 +212,20 @@ async function onSubmit(event: FormSubmitEvent<any>) {
 
     if (response.code === 1000) {
       message.success("提交成功");
+      // 跳转到https://teacher-preview.exam.isrc.ac.cn/#/login，新增标签页
+      // window.open('https://teacher-preview.exam.isrc.ac.cn/#/admin/welcome?token='+response.data.access_token, '_blank');
+      // window.open('https://192.168.3.16:9000/#/admin/welcome?token='+response.data.access_token, '_blank');
+      console.log('https://192.168.3.16:9000/#/admin/welcome?token=' + response.data.access_token)
+
+      let baseUrl: string
+      if (location.href.includes('localhost') || location.href.includes('192.168')) {
+        baseUrl = 'https://localhost:9000/'
+      } else if (location.href.includes('teacher-preview')) {
+        baseUrl = 'https://preview.exam.isrc.ac.cn/'
+      } else {
+        baseUrl = 'https://exam.isrc.ac.cn/'
+      }
+      window.open(baseUrl + '#/admin/welcome?token=' + response.data.access_token, '_blank');
     } else {
       message.error(response.msg);
     }

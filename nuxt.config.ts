@@ -43,7 +43,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    // static: true,
+    static: true,
     esbuild: {
       options: {
         target: 'esnext',
@@ -52,7 +52,7 @@ export default defineNuxtConfig({
     prerender: {
       failOnError: false,
       crawlLinks: true,
-      // routes: ['/'],
+      routes: ['/'],
     },
     devProxy: {
       '/api/v1/portal': {
@@ -83,7 +83,7 @@ export default defineNuxtConfig({
   },
   routeRules: {
     '/api/search.json': { prerender: true },
-    // '/**': { prerender: true } // https://github.com/nuxt/content/issues/2509
+    '/**': { prerender: true } // https://github.com/nuxt/content/issues/2509
   },
   content: {
     // experimental: {
